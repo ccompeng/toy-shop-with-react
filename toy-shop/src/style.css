@@ -1,0 +1,40 @@
+/* Google Fonts > Quicksand > Regular */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+    --yellow: #f8ff00;
+    --black: #181900;
+    --white: #fffff4;
+    --red: #e0483d;
+    --purple: #2b0982;
+    --orange: #ffa100;
+    --font: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./assets/background-img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: var(--font);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--purple);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: var(--white);
+}

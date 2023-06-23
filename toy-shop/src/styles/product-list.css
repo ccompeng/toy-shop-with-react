@@ -1,0 +1,10 @@
+.products-list-container {
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
